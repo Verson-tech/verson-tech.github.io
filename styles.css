@@ -8,6 +8,7 @@ block-size: auto;
 writing-mode:sideways-lr;
 background: repeating-linear-gradient(45deg, #3f87a6, #ebf8e1 15%, #f69d3c 20%);
 font-style: oblique;
+border-radius: 50% 20% / 10% 40%; 
 }
 body {
     background-color: rgb(91, 223, 15);
