@@ -11,10 +11,11 @@ font-style: oblique;
 border-radius: 50% 20% / 10% 40%; 
 }
 body {
-    background-color: rgb(91, 223, 15);
+    background-color: rgb(1, 253, 148);
 }
 img {
     border-radius: 50% 20% / 10% 40%;  
+    padding-right: 13px;
 }
 a {
     font-family: fantasy;
