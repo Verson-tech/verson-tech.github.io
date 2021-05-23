@@ -29,9 +29,10 @@ img {
     width:450px;
     list-style:none;
 }
-a {
-    font-family: fantasy;
-    font-size: small;
+p {
+    font-family: 'Libre Baskerville', serif;
+    font-size:xx-large;
+    color:mediumaquamarine;
 }
 nav{
 position:absolute;
@@ -43,4 +44,20 @@ list-style:none;
 .navbar-brand {
 font-family: 'Libre Baskerville', serif;
 }
+
+.nav-link-active {
+    font-family: 'Libre Baskerville', serif;   
+    font-size: small;
+}
+.nav-link {
+    font-family: 'Libre Baskerville', serif;   
+    font-size: small;
+    text-align: center;
+}
+.nav-link-dropdown-toggle {
+    font-family: 'Libre Baskerville', serif;   
+    font-size: small;  
+}
+
+
 
