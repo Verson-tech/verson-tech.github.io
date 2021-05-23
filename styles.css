@@ -1,23 +1,46 @@
 h1 {
-height: 100px;
-width: 310px;
-border-radius:80%;
-font-family: Georgia, 'Times New Roman', Times, serif;
-padding: 10px 50px 20px;
-block-size: auto;
-writing-mode:sideways-lr;
-background: repeating-linear-gradient(45deg, #3f87a6, #ebf8e1 15%, #f69d3c 20%);
-font-style: oblique;
-border-radius: 50% 20% / 10% 40%; 
+    position:absolute;
+    left:55%;top: 110px;
+    margin-left:-475px; /* negative margin equal to half the width */
+    width:450px;
+    list-style:none;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    color: lightskyblue;
+}
+h2 {
+    position:absolute;
+    left:55%;top: 200px;
+    margin-left:-475px; /* negative margin equal to half the width */
+    width:450px;
+    list-style:none;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    color: rgb(77, 64, 248);
 }
 body {
-    background-color: rgb(1, 253, 148);
+    background-image: url('https://images.unsplash.com/photo-1534996858221-380b92700493?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cGxhbmV0JTIwZWFydGh8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
 }
-img {
-    border-radius: 50% 20% / 10% 40%;  
-    padding-right: 13px;
+img { 
+    position:absolute;
+    left:55%;top: 400px;
+    margin-left:-475px; /* negative margin equal to half the width */
+    width:450px;
+    list-style:none;
 }
 a {
     font-family: fantasy;
     font-size: small;
 }
+nav{
+position:absolute;
+left:55%;top: 10px;
+margin-left:-475px; /* negative margin equal to half the width */
+width:450px;
+list-style:none;
+}
+.navbar-brand {
+font-family: 'Libre Baskerville', serif;
+}
+
