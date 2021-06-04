@@ -23,6 +23,7 @@ body {
     background-size: cover;
 }
 img { 
+    border-radius: 5%;
     position:absolute;
     left:55%;top: 400px;
     margin-left:-475px; /* negative margin equal to half the width */
@@ -35,6 +36,7 @@ p {
     color:mediumaquamarine;
 }
 nav{
+border-radius: 10%;
 position:absolute;
 left:55%;top: 10px;
 margin-left:-475px; /* negative margin equal to half the width */
@@ -58,6 +60,12 @@ font-family: 'Libre Baskerville', serif;
     font-family: 'Libre Baskerville', serif;   
     font-size: small;  
 }
+.container-fluid{
+    background-color: rgb(233, 235, 247);
+    border-radius: 5%;
+}
+
+
 
 
 
