@@ -34,8 +34,8 @@ img {
     border-radius: 50%;
     position:absolute;
     left:55%;top: 400px;
-    margin-left:-250px; /* negative margin equal to half the width */
-    width:450px;
+    margin-left:-150px; /* negative margin equal to half the width */
+    width:250px;
     list-style:none;
 }
 p {
@@ -73,6 +73,7 @@ font-family: 'Libre Baskerville', serif;
     border-radius: 5%;
     width: 80%;
 }
+
 
 
 
