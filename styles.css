@@ -75,6 +75,9 @@ font-family: 'Libre Baskerville', serif;
     border-radius: 5%;
     width: 80%;
 }
+.dropdown-menu{
+    border-radius: 5%;
+}
 
 
 
