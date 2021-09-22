@@ -77,6 +77,9 @@ font-family: 'Libre Baskerville', serif;
 }
 .dropdown-menu{
     border-radius: 5%;
+    background-image: url('https://images.unsplash.com/photo-1632269897077-57c965b0f406?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1742&q=80');
+    background-position: center;
+    background-size: cover;
 }
 
 
