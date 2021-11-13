@@ -31,7 +31,7 @@ body {
     background-position: center;
     background-color: rgb(242, 239, 248);
 }
-img { 
+#profile { 
     border-radius: 50%;
     position:absolute;
     left:55%;top: 400px;
@@ -39,9 +39,9 @@ img {
     width:250px;
     list-style:none;
 }
-p {
+#email {
     font-family: 'Libre Baskerville', serif;
-    font-size:xx-large;
+    font-size:medium;
     color:mediumaquamarine;
 }
 nav{
