@@ -3,8 +3,8 @@
 }
 h1 {
     position:absolute;
-    left:55%;
-    margin-left:-250px; /* negative margin equal to half the width */
+    left:50%;
+     margin-left:-250px;   /*negative margin equal to half the width */
     width:450px;
     list-style:none;
     text-align: center;
@@ -14,7 +14,7 @@ h1 {
 }
 h2 {
     position:absolute;
-    left:55%;top: 225px;
+    left:50%;top: 225px;
     margin-left:-250px; /* negative margin equal to half the width */
     width:450px;
     list-style:none;
@@ -34,7 +34,7 @@ body {
 #profile { 
     border-radius: 50%;
     position:absolute;
-    left:55%;top: 400px;
+    left:50%;top: 400px;
     margin-left:-150px; /* negative margin equal to half the width */
     width:250px;
     list-style:none;
@@ -46,12 +46,12 @@ body {
 }
 nav{
 border-radius: 10%;
-position:absolute;
-left:55%;top: 10px;
-margin-left:-250px; /* negative margin equal to half the width */
-width:450px;
+/* position:absolute; */
+/* left:55%;top: 10px; */
+/* margin-left:-250px; negative margin equal to half the width */
+/* width: 325px;
 list-style:none;
-z-index: 10;
+z-index: 10; */
 }
 .navbar-brand {
 font-family: 'Libre Baskerville', serif;
@@ -59,11 +59,11 @@ font-family: 'Libre Baskerville', serif;
 
 .nav-link-active {
     font-family: 'Libre Baskerville', serif;   
-    font-size: small;
+    font-size:x-large;
 }
 .nav-link {
     font-family: 'Libre Baskerville', serif;   
-    font-size: small;
+    font-size: x-large;
     text-align: center;
 }
 .nav-link-dropdown-toggle {
@@ -73,11 +73,11 @@ font-family: 'Libre Baskerville', serif;
 .container-fluid{
     background-color: rgb(233, 235, 247);
     border-radius: 5%;
-    width: 80%;
+    /* width: 80%; */
 }
 .dropdown-menu{
     border-radius: 5%;
-    background-image: url('https://images.unsplash.com/photo-1632269897077-57c965b0f406?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1742&q=80');
+    background-image: url('https://images.unsplash.com/photo-1496167117681-944f702be1f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
     background-position: center;
     background-size: cover;
 }
