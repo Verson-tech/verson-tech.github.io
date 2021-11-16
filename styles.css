@@ -1,30 +1,33 @@
 * {
     box-sizing: border-box;
 }
-/* h1 {
+ .welcome {
     /* position:absolute;
     left:50%;
      margin-left:-250px;   /*negative margin equal to half the width */
     /* width:450px;
     list-style:none;  */
     
-    /* text-align: center;
+    /* text-align: center;*/
+
     font-family: 'Lobster', cursive;
-    color: rgb(114, 44, 99);
-    padding-top: 20px; */
-/* }  */
-h2 {
+    color: rgb(114, 44, 99); 
+    padding-top: 40px; 
+    font-size: xx-large;
+ }  
+
+/* h2 { */
     /* position:absolute;
     left:50%; */
     /* margin-left:-250px; negative margin equal to half the width
     width:450px;
     list-style:none; */
-    text-align: center;
+    /* text-align: center;
     font-family: 'Lobster', cursive;
     color: rgb(114, 44, 99);
     padding-top: 80px;
     z-index: 0;
-}
+} */
 body {
     background-image: url('https://images.unsplash.com/photo-1496167117681-944f702be1f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
     background-size: cover;
@@ -41,10 +44,9 @@ body {
     padding-top: 250px; */
     /* list-style:none; */
 /* } */
-#profile{
-    width:150px;
-    margin-top: 20px;
-   }
+.portrait{
+border-radius: 80%;
+}
 #email {
     font-family: 'Libre Baskerville', serif;
     font-size:medium;
@@ -101,7 +103,6 @@ z-index: 10; */
         font-size: 3rem;
     }
 } */
-
 
 
 
