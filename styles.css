@@ -108,8 +108,9 @@ z-index: 10; */
     line-height: 2.5;
     padding: 0 20px;
     font-size: 1rem;
+    font-family: 'Lobster', cursive;
     text-align: center;
-    color: #fff;
+    color: rgb(238, 163, 222); 
     text-shadow: 1px 1px 1px #000;
     border-radius: 10px;
     background-color: rgb(182, 201, 233);
