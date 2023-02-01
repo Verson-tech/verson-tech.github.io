@@ -1,101 +1,104 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
- .welcome {
-    /* position:absolute;
+.welcome {
+  /* position:absolute;
     left:50%;
      margin-left:-250px;   /*negative margin equal to half the width */
-    /* width:450px;
+  /* width:450px;
     list-style:none;  */
-    
-    /* text-align: center;*/
 
-    font-family: 'Lobster', cursive;
-    color: rgb(114, 44, 99); 
-    padding-top: 40px; 
-    font-size: xx-large;
- }  
+  /* text-align: center;*/
+
+  font-family: "Lobster", cursive;
+  color: rgb(114, 44, 99);
+  padding-top: 40px;
+  font-size: xx-large;
+}
 
 /* h2 { */
-    /* position:absolute;
+/* position:absolute;
     left:50%; */
-    /* margin-left:-250px; negative margin equal to half the width
+/* margin-left:-250px; negative margin equal to half the width
     width:450px;
     list-style:none; */
-    /* text-align: center;
+/* text-align: center;
     font-family: 'Lobster', cursive;
     color: rgb(114, 44, 99);
     padding-top: 80px;
     z-index: 0;
 } */
 body {
-    background-image: url('https://images.unsplash.com/photo-1496167117681-944f702be1f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: rgb(242, 239, 248);
+  /* background-image: url("https://images.unsplash.com/photo-1496167117681-944f702be1f4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2232&q=80"); */
+  background-image: url("https://images.unsplash.com/photo-1488998427799-e3362cec87c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgb(242, 239, 248);
 }
 /* #profile {  */
-    /* border-radius: 80%; */
-    /* position:absolute; */
-    /* left:50%; */
-    /* margin-left:-150px; negative margin equal to half the width */
-    /* width:250px;
+/* border-radius: 80%; */
+/* position:absolute; */
+/* left:50%; */
+/* margin-left:-150px; negative margin equal to half the width */
+/* width:250px;
     padding-top: 250px; */
-    /* list-style:none; */
+/* list-style:none; */
 /* } */
-.portrait{
-border-radius: 80%;
+.portrait {
+  border-radius: 80%;
 }
 #email {
-    font-family: 'Libre Baskerville', serif;
-    font-size:medium;
-    color:mediumaquamarine;
+  font-family: "Libre Baskerville", serif;
+  font-size: medium;
+  color: mediumaquamarine;
 }
-nav{
-border-radius: 10%;
-/* position:absolute; */
-/* left:55%;top: 10px; */
-/* margin-left:-250px; negative margin equal to half the width */
-/* width: 325px;
+nav {
+  border-radius: 10%;
+  /* position:absolute; */
+  /* left:55%;top: 10px; */
+  /* margin-left:-250px; negative margin equal to half the width */
+  /* width: 325px;
 list-style:none;
 z-index: 10; */
 }
 .navbar-brand {
-    font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
 }
 
 .nav-link-active {
-    font-family: 'Lobster', cursive;
-    font-size:x-large;
+  font-family: "Lobster", cursive;
+  font-size: x-large;
 }
 .nav-link {
-    font-family: 'Lobster', cursive; 
-    font-size: x-large;
-    text-align: center;
+  font-family: "Lobster", cursive;
+  font-size: x-large;
+  text-align: center;
 }
 .nav-link-dropdown-toggle {
-    font-family: 'Lobster', cursive;
-    font-size: small;  
+  font-family: "Lobster", cursive;
+  font-size: small;
 }
-.container-fluid{
-    background-color: rgb(233, 235, 247);
-    border-radius: 5%;
-    /* width: 80%; */
+.container-fluid {
+  background-color: rgb(233, 235, 247);
+  border-radius: 5%;
+  /* width: 80%; */
 }
-.dropdown-menu{
-    border-radius: 5%;
-    background-image: url('https://images.unsplash.com/photo-1496167117681-944f702be1f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
-    background-position: center;
-    background-size: cover;
-          }
-.dropdown-item{
-    font-family: 'Lobster', cursive;
-    font-size: medium;  
-    color: rgb(114, 44, 99);
-   }
-   .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
-    color: rgb(114, 44, 99);
+.dropdown-menu {
+  border-radius: 5%;
+  background-image: url("https://images.unsplash.com/photo-1496167117681-944f702be1f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+  background-position: center;
+  background-size: cover;
+}
+.dropdown-item {
+  font-family: "Lobster", cursive;
+  font-size: medium;
+  color: rgb(114, 44, 99);
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: rgb(114, 44, 99);
 }
 /* @media (max-Width:1200px){
     #headingGroup h1{
@@ -104,37 +107,34 @@ z-index: 10; */
     }
 } */
 .styled {
-    border: 0;
-    line-height: 2.5;
-    padding: 0 20px;
-    font-size: 1rem;
-    font-family: 'Lobster', cursive;
-    text-align: center;
-    color: rgb(238, 163, 222); 
-    text-shadow: 1px 1px 1px #000;
-    border-radius: 10px;
-    background-color: rgb(182, 201, 233);
-    background-image: linear-gradient(to top left,
-                                      rgba(0, 0, 0, .2),
-                                      rgba(0, 0, 0, .2) 30%,
-                                      rgba(0, 0, 0, 0));
-    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
-                inset -2px -2px 3px rgba(0, 0, 0, .6);
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  font-family: "Lobster", cursive;
+  text-align: center;
+  color: rgb(238, 163, 222);
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgb(182, 201, 233);
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
 }
 
 .styled:hover {
-    background-color: rgb(197, 152, 152);
+  background-color: rgb(197, 152, 152);
 }
 
 .styled:active {
-    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
-                inset 2px 2px 3px rgba(0, 0, 0, .6);
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 .language {
-    padding: 10px;
+  padding: 10px;
 }
-
-
-
-
-
