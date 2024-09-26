@@ -68,10 +68,6 @@ z-index: 10; */
   font-family: "Lobster", cursive;
 }
 
-.nav-link-active {
-  font-family: "Lobster", cursive;
-  font-size: x-large;
-}
 .nav-link {
   font-family: "Lobster", cursive;
   font-size: x-large;
